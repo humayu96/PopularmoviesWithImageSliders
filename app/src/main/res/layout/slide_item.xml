@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="275sp">
+
+  <ImageView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:id="@+id/image_view"
+      />
+
+  <android.support.design.widget.FloatingActionButton
+      android:id="@+id/floatingActionButton"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:clickable="true"
+      android:layout_centerInParent="true"
+      android:src="@drawable/ic_play_arrow_black_24dp" />
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textColor="@color/colorwhite"
+      android:hint="TITLE"
+      android:layout_below="@id/floatingActionButton"
+      android:id="@+id/slider_title"
+      android:textSize="24sp"
+      android:layout_marginTop="40dp" />
+
+
+  <ImageView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_below="@id/floatingActionButton"
+      android:layout_marginTop="60dp"
+      android:src="@drawable/gradient_bg" />
+</RelativeLayout>

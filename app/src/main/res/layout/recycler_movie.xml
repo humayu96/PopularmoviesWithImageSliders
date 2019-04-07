@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="125sp"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:layout_marginRight="8sp"
+    >
+    
+    <ImageView
+
+        android:transitionName="shared"
+        android:layout_width="150sp"
+        android:layout_height="225sp"
+        android:id="@+id/recycler_image"
+
+        />
+
+    <TextView
+        android:layout_width="150sp"
+        android:layout_height="30sp"
+        android:id="@+id/recyler_text"
+        android:textSize="24sp"
+        android:text="DEADPOOL"
+        android:layout_below="@id/recycler_image"
+        android:textColor="@color/colorwhite"
+
+        />
+
+</RelativeLayout>
